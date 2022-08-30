@@ -48,6 +48,8 @@ jobs:
           check-latest: true
       - name: Install NPM dependencies
         run: npm install
+      - name: Install Vue
+        run: npm install vue-template-compiler
       - name: Compile assets for production
         run: npm run production
 
